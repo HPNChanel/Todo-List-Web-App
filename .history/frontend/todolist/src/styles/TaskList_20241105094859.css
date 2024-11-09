@@ -1,0 +1,25 @@
+.task-list {
+  padding: 40px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  max-width: 1000px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.task-list h4 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2em;
+  color: #333;
+  font-weight: bold;
+}
+
+.task-list .task-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 25px;
+  justify-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+}

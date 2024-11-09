@@ -1,0 +1,23 @@
+/* src/styles/CompletedTasks.css */
+.completed-task-card {
+  background-color: #d4edda; /* Xanh nhạt để biểu thị hoàn thành */
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.completed-task-card:hover {
+  background-color: #c3e6cb; /* Màu đậm hơn khi hover */
+}
+
+.completed-task-title {
+  font-weight: bold;
+  color: #155724;
+}
+
+.completed-task-actions button {
+  color: #28a745;
+  margin-right: 10px;
+}

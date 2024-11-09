@@ -1,0 +1,40 @@
+/* src/styles/Workspace.css */
+.workspace-container {
+  display: flex;
+}
+
+.workspace-sidebar {
+  width: 20%;
+  background-color: #1a202c;
+  padding: 20px;
+  color: white;
+}
+
+.workspace-nav .active {
+  background-color: #2d3748;
+}
+
+.workspace-main {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #f7fafc;
+}
+
+.task-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.task-card {
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.task-card:hover {
+  background-color: #e2e8f0;
+}

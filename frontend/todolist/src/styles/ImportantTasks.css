@@ -1,0 +1,23 @@
+/* src/styles/ImportantTasks.css */
+.important-task-card {
+  background-color: #fff3cd; /* Màu vàng nhạt để biểu thị quan trọng */
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.important-task-card:hover {
+  background-color: #ffeeba; /* Màu đậm hơn khi hover */
+}
+
+.important-task-title {
+  font-weight: bold;
+  color: #856404;
+}
+
+.important-task-actions button {
+  color: #ffc107;
+  margin-right: 10px;
+}

@@ -1,0 +1,44 @@
+.task-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Sử dụng toàn bộ chiều rộng có sẵn */
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.task-form input,
+.task-form select,
+.task-form button {
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  flex: 1;
+  min-width: 250px; /* Tối thiểu 250px để có không gian nhập đủ */
+}
+
+.task-form button {
+  background-color: #1976d2;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  flex: 0 0 auto;
+}
+
+.task-form button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .task-form {
+      flex-direction: column; /* Hiển thị dạng cột trên màn hình nhỏ */
+      align-items: stretch;
+  }
+}

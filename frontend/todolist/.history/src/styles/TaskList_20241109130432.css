@@ -1,0 +1,10 @@
+/* src/styles/TaskList.css */
+.task-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: transparent;
+  padding: 0;
+  width: 100%;
+  justify-content: flex-start;
+}

@@ -1,0 +1,13 @@
+/* src/styles/TaskList.css */
+.task-list {
+  padding: 40px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  width: 100%;
+}
+
+.task-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}

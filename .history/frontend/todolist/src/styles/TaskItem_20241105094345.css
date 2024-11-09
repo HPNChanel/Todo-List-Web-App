@@ -1,0 +1,72 @@
+.task-item {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 180px;
+}
+
+.task-item:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.task-item h6 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #333;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.task-item .task-info {
+  font-size: 0.9em;
+  color: #555;
+  margin-bottom: 10px;
+  line-height: 1.5;
+  flex-grow: 1;
+}
+
+.task-item .task-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  justify-content: flex-end;
+}
+
+.task-item .task-actions button {
+  border: none;
+  padding: 6px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  font-size: 0.9em;
+}
+@media (max-width: 768px) {
+  .task-item {
+      padding: 15px;
+      font-size: 0.9em;
+  }
+
+  .task-item h6 {
+      font-size: 1em;
+  }
+
+  .task-item .task-info {
+      font-size: 0.85em;
+  }
+
+  .task-item .task-actions button {
+      padding: 5px 10px;
+      font-size: 0.8em;
+  }
+}

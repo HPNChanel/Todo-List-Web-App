@@ -1,0 +1,23 @@
+/* src/styles/MyTasks.css */
+.my-task-card {
+  background-color: #e2e3e5; /* Màu xám nhạt cho công việc của tôi */
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.my-task-card:hover {
+  background-color: #d6d8db; /* Màu đậm hơn khi hover */
+}
+
+.my-task-title {
+  font-weight: bold;
+  color: #383d41;
+}
+
+.my-task-actions button {
+  color: #007bff;
+  margin-right: 10px;
+}

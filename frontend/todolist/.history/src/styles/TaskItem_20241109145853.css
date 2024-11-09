@@ -1,0 +1,40 @@
+/* src/styles/TaskItem.css */
+.task-item {
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.task-item:hover {
+  background-color: #e2e8f0;
+}
+
+.task-actions button {
+  margin-right: 10px;
+}
+
+/* src/styles/Workspace.css */
+.workspace-container {
+  display: flex;
+}
+
+.workspace-sidebar {
+  width: 20%;
+  padding: 20px;
+  background-color: #1a202c;
+  color: white;
+}
+
+.workspace-main {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #f7fafc;
+}
+
+.task-list {
+  display: grid;
+  gap: 20px;
+}

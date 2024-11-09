@@ -1,0 +1,76 @@
+@keyframes fadeInUp {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.task-item {
+  animation: fadeInUp 0.5s ease both;
+}
+
+.task-item {
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.task-item:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.task-item h6 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #333;
+  font-weight: bold;
+}
+
+.task-item .task-info {
+  font-size: 0.9em;
+  color: #555;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.task-item .task-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.task-item .task-actions button {
+  border: none;
+  padding: 5px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.task-item .task-actions button.edit {
+  background-color: #ffc107;
+  color: white;
+}
+
+.task-item .task-actions button.delete {
+  background-color: #dc3545;
+  color: white;
+}
+
+.task-item .task-actions button.edit:hover {
+  background-color: #e0a800;
+}
+
+.task-item .task-actions button.delete:hover {
+  background-color: #c82333;
+}

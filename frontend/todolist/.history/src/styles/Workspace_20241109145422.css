@@ -1,0 +1,28 @@
+/* src/styles/Workspace.css */
+.workspace-container {
+  display: flex;
+}
+
+.workspace-sidebar {
+  width: 20%;
+  background-color: #1a202c;
+  padding: 20px;
+  color: white;
+}
+
+.workspace-main {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.task-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.task-card {
+  padding: 16px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}

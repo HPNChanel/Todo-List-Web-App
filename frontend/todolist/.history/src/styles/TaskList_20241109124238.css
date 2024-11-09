@@ -1,0 +1,13 @@
+/* src/styles/TaskList.css */
+.task-list {
+  padding: 0; /* Bỏ padding để loại bỏ khoảng trống lớn */
+  background-color: transparent; /* Đặt nền trong suốt để loại bỏ khung bao */
+  width: 100%;
+}
+
+.task-grid {
+  display: flex;
+  flex-wrap: wrap; /* Cho phép các thẻ công việc hiển thị theo dòng */
+  gap: 10px; /* Khoảng cách nhỏ giữa các thẻ công việc */
+  justify-content: flex-start;
+}

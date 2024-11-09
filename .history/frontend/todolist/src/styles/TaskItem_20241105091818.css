@@ -1,0 +1,42 @@
+.task-item {
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task-item h6 {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.task-item .task-info {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.task-item .task-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.task-item .task-actions button {
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.task-item .task-actions button.edit {
+  background-color: #ffc107;
+  color: white;
+}
+
+.task-item .task-actions button.delete {
+  background-color: #dc3545;
+  color: white;
+}
